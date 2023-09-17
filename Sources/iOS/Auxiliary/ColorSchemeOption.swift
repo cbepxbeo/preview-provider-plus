@@ -5,10 +5,13 @@
  Created by: Egor Boyko
  Date: 17.09.2023
  
- Status: #In progress
+ Status: #Completed | #Not required
  
  */
 
 import SwiftUI
 
-enum ColorSchemeOption {}
+enum ColorSchemeOption {
+    case none
+    case present(ColorScheme)
+}
