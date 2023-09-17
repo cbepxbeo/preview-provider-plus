@@ -5,8 +5,11 @@
  Created by: Egor Boyko
  Date: 17.09.2023
  
- Status: #In progress
+ Status: #Completed | #Not required
  
  */
 
-enum DeviceOption {}
+enum DeviceOption {
+    case none
+    case present(PreviewDevice)
+}
