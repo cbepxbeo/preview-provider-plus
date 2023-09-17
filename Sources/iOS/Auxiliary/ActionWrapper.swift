@@ -5,8 +5,11 @@
  Created by: Egor Boyko
  Date: 17.09.2023
  
- Status: #In progress
+ Status: #Completed | #Not required
  
  */
 
-struct ActionWrapper<T>{}
+
+struct ActionWrapper<T>{
+    var value: T
+}
